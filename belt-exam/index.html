@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belt Exam</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top ">
+            <div class="izquierda">
+                <img class="imagen2" src="/img/logo.png" id="logo" alt="data center">
+            </div>
+            <div class="derecha">
+                <div class="actions">
+                    <button type="submit" class="button3" onclick="corporate()">Corporate</button>
+                    <input type="text" name="search">
+                    <img class="icono" src="/img/search_icon.png" alt="data center">
+                </div>
+                <div class="top-nav">
+                    <ul class="nav" id="items" >
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Civism</a></li>
+                        <li><a href="#">About Dominion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="side-nav">
+                <div class="card-container">
+                    <form class="card-sign-in">
+                        <div class="encabezado">
+                            <p class="text-centrado">
+                                <span class="text-white">Manage Your Account</span><br>
+                                <span class="text-white small-text">View/pay ebills, analyzw usage and more</span>
+                            </p>
+                        </div>
+                        <div class="contenido">
+                            <div class="field">
+                                <label class="text-black"><b>User name:</b></label>
+                                <input type="text" name="uname">
+                                <label  class="text-blue small-text"><b>Forgot your user name?</b></label>
+                            </div>
+                            <div class="field">
+                                <label class="text-black"><b>Password:</b></label>
+                                <input type="password" name="psw" >
+                                <label class="text-blue small-text"><b>Forgot your user paswsword?</b></label>
+                            </div>
+                            <div class="flex">
+                                <button type="submit" class="button2" id="sign-in" onclick="remove()">Sign In</button>
+                                <button type="submit" class="button4 text-blue" id="register" onclick="setActive(this)">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="button1" id="customerButton" onclick="displayInvestor()">I am a Customer</button>
+                </div>
+            </div>
+            <div class="main">
+            </div>
+            <div class="side-nav col"></div>
+        </div>
+        <div class="footer">
+            <div class="banner">
+                <p class="text-alineado"> 
+                    <span class="text-black">News Update:</span> 
+                    <span class="text-blue" style="font-weight: bold;">Dominion to Build Solar Power Project in Georgia</span>
+                </p>
+            </div>
+            <div class="row">
+                <div class="footer-cards">
+                    <img  class="imagen1" src="/img/data_center.png" alt="data center">
+                    <p style="padding-left: 10px;"> <span class="text-black">Dominion Data Center Services </span><br>
+                        <span class="text-blue">Data centers are a growing segment of our Virginia customer base</span>
+                    </p>
+                </div>
+                <div class="footer-cards">
+                    <img class="imagen1" src="/img/green_solutions.png" alt="green solutions">
+                    <p style="padding-left: 10px;"> <span class="text-black">Green Solutions </span><br>
+                        <span class="text-blue">Save money, use energy effieciently and help the environment.</span>
+                    </p>
+                </div>
+                <div class="footer-cards">
+                    <img class="imagen1" src="/img/promise.png" alt="promise">
+                    <p style="padding-left: 10px;"> <span class="text-black">A promise is a promise</span><br>
+                        <span class="text-blue">If Gov Malloy breaks his workd, Connecticut electric rates could rise</span>
+                    </p>
+                </div>
+            </div>
+            <nav class="bottom-nav nav" >
+                <ul class="nav items">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Legal Terms and Conditions</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Para servirlos</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Diversity</a></li>
+                </ul>
+                <hr>
+                <a> | NYSE (April 3, 2013) <span class="text-black">D 58.75 <span class="text-verde">+0.13</span></span></a>
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

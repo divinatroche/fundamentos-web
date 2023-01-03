@@ -1,0 +1,32 @@
+#container{
+    padding:50px;
+}
+#search{
+    background-color: aliceblue;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: aquamarine;
+    color: aquamarine;
+    padding: 5px 30px 5px 30px;
+}
+#add{
+    
+    border: solid 1px;
+    border-radius: 50%;
+    color: aliceblue;
+    border-color: none;
+    background-color: aquamarine;
+    padding:5px 10px
+}
+#create{
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border-radius: 0px;
+    padding:5px 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+#box1, #box2, #box3{
+    padding: 10px;
+}
+

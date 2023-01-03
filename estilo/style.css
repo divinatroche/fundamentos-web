@@ -1,0 +1,24 @@
+.container{
+    padding: 10px;
+    font-family: cursive;
+}
+.title {
+    background-color: black;
+    color:aliceblue
+}
+#subtext{
+    color: aqua;
+}
+.subtitle {
+    background-color: blueviolet;
+    color:aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-weight:normal
+}
+.footer {
+    background-color:azure;
+    color: rgb(34, 31, 94);
+    text-decoration: underline;
+    text-align: right;
+}

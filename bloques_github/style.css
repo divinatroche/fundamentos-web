@@ -1,0 +1,32 @@
+.container{
+    width: 950px;
+    background-color: rgb(246, 246, 246);
+    margin: 0px auto;
+    padding: 15px;
+}
+
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 5px 5px 15px 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 5px 15px 5px;
+    margin: 15px;;
+}
+
+#fila1{
+    background-color: rgba(0, 119, 255, 0.534);
+}
+#fila2{
+    background-color: rgba(255, 0, 225, 0.089);
+}
+#fila3{
+    background-color: white;
+}

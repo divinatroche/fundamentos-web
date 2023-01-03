@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evento on-Click</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header class="flex">
+        <h1 >Dojonary</h1>
+        <input type="text" id="search" name="search" placeholder="Search">
+        <button class="btn btn-search" id="btn-login" onclick="displayLogout()">Login</button>
+    </header>
+    <section class=" fila">
+        <div  class="col-2">
+            <div class="card">
+                <div class="col">
+                    <p><span style="font-size:30px">ninja</span><br>
+                    noun<br>
+                    Plural: ninjas</p>
+                    <button class="btn btn-likes" onclick="like()">13 likes</button>
+                </div>
+                <div class="col-2">
+                    <p>
+                        A practitioner skillerd in the<br>
+                        <span class="subrayado">Japanesse</span> art of <span class="subrayado">ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col">
+                    <p><span style="font-size:30px">ninja</span><br>
+                    noun<br>
+                    Plural: ninjas</p>
+                    <button class="btn btn-likes" onclick="like()">37 likes</button>
+                </div>
+                <div class="col-2">
+                    <p>
+                        A <span class="subrayado">programmer</span> who breaks <br>
+                        down problems with <span class="subrayado">zen-</span>like 
+                        focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="col">
+                    <p>
+                        Dojonara is <br>
+                        defined by YOU
+                    </p>
+                    <button class="btn btn-definition" id="remove" onclick="remove()">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

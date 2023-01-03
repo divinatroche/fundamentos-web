@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    background-color: beige;
+}
+.col{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+.col-2{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(245, 210, 246);
+}
+
+.col-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(223, 246, 210);
+}
